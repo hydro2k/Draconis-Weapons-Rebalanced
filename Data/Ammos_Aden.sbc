@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+
+
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>Aden30x113</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>800</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>800</MaxTrajectory>
+        <BackkickForce>60</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>250</ProjectileHitImpulse>
+        <ProjectileMassDamage>175</ProjectileMassDamage>
+        <ProjectileHealthDamage>48</ProjectileHealthDamage>
+		<ProjectileTrailScale>0.4</ProjectileTrailScale>
+		<ProjectileTrailColor x="1.0" y="1.0" z="1.0" />
+		<ProjectileTrailProbability>1</ProjectileTrailProbability>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
+
+
+
+  </Ammos>
+</Definitions>

@@ -1,0 +1,182 @@
+
+>>Auto Cannon Turrets<<<
+
+
+
+"300mm" and "900mm"
+
+MinElevationDegrees -10°
+MaxElevationDegrees 50°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="12"  1x300 /900
+RateOfFire="24"  2x300 /900
+RateOfFire="36"  3x300 /900
+
+
+Ammo:"300mmShell_HE"	ExplosionRadius: 3   ExplosionDamage: 30000   DesiredSpeed: 1500
+     "300mmShell_AP"	ExplosionRadius: 2   ExplosionDamage: 70000   DesiredSpeed: 2000
+
+Ammo:"900mmShell_HE"	ExplosionRadius: 7  ExplosionDamage:  60000   DesiredSpeed: 1000
+     "900mmShell_AP"	ExplosionRadius: 4   ExplosionDamage: 150000   DesiredSpeed: 1500
+
+
+
+  "300mm" Auto Cannon 1x1x1
+
+"2x300mm" Auto Cannon 3x1x3
+
+"2x300mm" Auto Cannon 5x1x5
+
+  "300mm" Side Cannon 1x1x1 (Smallship 2x2x2)
+
+
+  "900mm" Auto Cannon 5x2x5
+
+"2x900mm" Auto Cannon 7x3x7
+
+"2x900mm" Auto Cannon 9x3x9
+
+  "900mm" Side Cannon 2x2x2
+
+
+
+
+
+>>>"30mm" Aden<<< 1x1x1
+
+
+MinElevationDegrees -40°
+MaxElevationDegrees 60°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="1100"
+
+Ammo:"Aden30x113"   ProjectileMassDamage: 200   DesiredSpeed: 800
+
+
+
+
+
+
+>>>"40mm" Bofors<<< 1x1x1
+
+
+MinElevationDegrees -15°
+MaxElevationDegrees 55°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="300"
+
+Ammo:"Bofors40mm"	ExplosionRadius: 2   ExplosionDamage: 3000   DesiredSpeed: 2100
+
+
+
+
+
+
+>>>"M61" Vulcan<<< 1x1x1
+
+
+MinElevationDegrees -30°
+MaxElevationDegrees 90°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="3000"
+
+Ammo:"Vulcan20x102"   ProjectileMassDamage: 100   DesiredSpeed: 1500
+
+
+
+
+
+>>>"M61" Mini Vulcan<<< 1x1x1
+
+
+MinElevationDegrees -15°
+MaxElevationDegrees 180°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="1800"
+
+Ammo:"Vulcan20x102"   ProjectileMassDamage: 100   DesiredSpeed: 1500
+
+
+
+
+
+>>>"25mm" Sentry Gatling<<< 3x2x3 (Smallship)
+
+
+MinElevationDegrees -15°
+MaxElevationDegrees 180°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="800"
+
+Ammo:"NATO_25x184mm"
+
+
+
+
+
+>>>"5p56mm" Sentry Gun<<< 1x1x1  (Smallship)
+
+
+MinElevationDegrees -60°
+MaxElevationDegrees 60°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="1000"
+
+Ammo:"NATO_5p56x45mm"
+
+
+
+
+
+>>>Missile Sentry<<< 3x2x3  (Smallship)
+
+
+MinElevationDegrees -10°
+MaxElevationDegrees 90°
+MinAzimuthDegrees -180°
+MaxAzimuthDegrees 180°
+
+RateOfFire="60"
+
+Ammo:"Missile200mm"
+
+
+
+
+
+
+>>>Little David<<< 1x1x6
+
+
+RateOfFire="8"
+
+Ammo:"LittleDavid"    ProjectileMassDamage: 300000000   DesiredSpeed: 3300   BackkickForce: 200000
+
+
+
+
+
+>>>BigBertha<<< 7x7x40
+
+
+RateOfFire="1"
+
+Ammo:"BigBertha"   ExplosionRadius: 15   ExplosionDamage: 1000000  DesiredSpeed: 4500
+
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+
+ 
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>MiniVulcan</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1000" ShootSoundName="Vulcan"  />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+	  <DeviateShotAngle>1.5</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>5</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="Vulcan20x102" />
+      </AmmoMagazines>
+    </Weapon>
+
+  </Weapons>
+</Definitions>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>LittleDavid</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="8" ShootSoundName="LittleDavid" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>7500</ReleaseTimeAfterFire>
+	  <DeviateShotAngle>0.5</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="LittleDavid" />
+      </AmmoMagazines>
+	  <ReloadTime>30000</ReloadTime>
+    </Weapon>
+
+ 
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>LittleDavidSmall</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="8" ShootSoundName="LittleDavid" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>7500</ReleaseTimeAfterFire>
+	  <DeviateShotAngle>0.5</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="LittleDavid" />
+      </AmmoMagazines>
+	  <ReloadTime>30000</ReloadTime>
+    </Weapon>
+
+
+
+
+
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>BigBertha</SubtypeId>
+      </Id>
+
+      <MissileAmmoData RateOfFire="20" ShootSoundName="BigBertha" ShotsInBurst="1" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <ReleaseTimeAfterFire>15000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="BigBertha" />
+      </AmmoMagazines>
+	  <ReloadTime>60000</ReloadTime>
+    </Weapon> 
+
+
+  </Weapons>
+</Definitions>

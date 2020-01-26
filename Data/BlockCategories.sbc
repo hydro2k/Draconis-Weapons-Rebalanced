@@ -1,0 +1,175 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  
+
+
+
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>ShipWeaponsTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <ItemIds>
+
+	<string>LargeMissileTurret/300mmAutoCannon_1</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3</string>
+
+	<string>LargeMissileTurret/900mmAutoCannon_1</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3</string>
+
+	<string>LargeGatlingTurret/LargeVulcan</string>
+	<string>LargeMissileTurret/40mmBofors</string>
+	<string>LargeGatlingTurret/LargeAden</string>
+
+	<string>SmallGatlingGun/LittleDavid</string>
+	<string>SmallMissileLauncher/BigBertha</string>
+
+	<string>LargeMissileTurret/Side300Cannon</string>
+	<string>LargeMissileTurret/Side900Cannon</string>
+
+
+
+
+
+
+	<string>LargeMissileTurret/300mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3_small</string>
+
+	<string>LargeMissileTurret/900mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3_small</string>
+
+	<string>LargeGatlingTurret/SmallVulcan</string>
+	<string>LargeMissileTurret/40mmBofors_small</string>
+	<string>LargeGatlingTurret/SmallAden</string>
+
+	<string>LargeGatlingTurret/SmallSentryGun</string>
+	<string>LargeGatlingTurret/SmallSentryGatling</string>
+	<string>LargeGatlingTurret/MiniVulcan</string>
+	<string>LargeMissileTurret/SentryMissileTurret</string>
+	<string>SmallGatlingGun/VulcanGun</string>
+
+	<string>LargeMissileTurret/Side300Cannonsmall</string>
+
+	<string>SmallGatlingGun/LittleDavidSmall</string>
+
+
+
+
+      </ItemIds>
+    </Category>
+  
+
+
+
+
+  <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+	  <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+	  <Name>WeaponsTools</Name>
+	  <ItemIds>
+
+	<string>LargeMissileTurret/300mmAutoCannon_1</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3</string>
+
+	<string>LargeMissileTurret/900mmAutoCannon_1</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3</string>
+
+	<string>LargeGatlingTurret/LargeVulcan</string>
+	<string>LargeMissileTurret/40mmBofors</string>
+	<string>LargeGatlingTurret/LargeAden</string>
+
+	<string>SmallGatlingGun/LittleDavid</string>
+	<string>SmallMissileLauncher/BigBertha</string>
+
+	<string>LargeMissileTurret/Side300Cannon</string>
+	<string>LargeMissileTurret/Side900Cannon</string>
+
+
+
+
+
+
+	<string>LargeMissileTurret/300mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3_small</string>
+
+	<string>LargeMissileTurret/900mmAutoCannon_1_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2_small</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3_small</string>
+
+	<string>LargeGatlingTurret/SmallVulcan</string>
+	<string>LargeMissileTurret/40mmBofors_small</string>
+	<string>LargeGatlingTurret/SmallAden</string>
+
+	<string>LargeGatlingTurret/SmallSentryGun</string>
+	<string>LargeGatlingTurret/SmallSentryGatling</string>
+	<string>LargeGatlingTurret/MiniVulcan</string>
+	<string>LargeMissileTurret/SentryMissileTurret</string>
+	<string>SmallGatlingGun/VulcanGun</string>
+
+	<string>LargeMissileTurret/Side300Cannonsmall</string>
+
+	<string>SmallGatlingGun/LittleDavidSmall</string>
+
+	  </ItemIds>  
+  </Category>
+	
+
+
+  
+<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>+ Rider - Cannon</DisplayName>
+      <Name>z-mod-rider-Cannon</Name>
+      <ItemIds>
+
+	<string>LargeMissileTurret/300mmAutoCannon_1</string>
+	<string>LargeMissileTurret/300mmAutoCannon_2</string>
+	<string>LargeMissileTurret/300mmAutoCannon_3</string>
+
+	<string>LargeMissileTurret/900mmAutoCannon_1</string>
+	<string>LargeMissileTurret/900mmAutoCannon_2</string>
+	<string>LargeMissileTurret/900mmAutoCannon_3</string>
+
+	<string>LargeGatlingTurret/LargeVulcan</string>
+	<string>LargeMissileTurret/40mmBofors</string>
+	<string>LargeGatlingTurret/LargeAden</string>
+
+	<string>LargeMissileTurret/Side300Cannon</string>
+	<string>LargeMissileTurret/Side900Cannon</string>
+
+	<string>LargeGatlingTurret/SmallSentryGun</string>
+	<string>LargeGatlingTurret/SmallSentryGatling</string>
+	<string>LargeGatlingTurret/MiniVulcan</string>
+	<string>LargeMissileTurret/SentryMissileTurret</string>
+	<string>SmallGatlingGun/VulcanGun</string>
+
+	<string>SmallGatlingGun/LittleDavid</string>
+	<string>SmallMissileLauncher/BigBertha</string>
+
+
+      </ItemIds>
+    </Category>
+
+
+
+  </CategoryClasses>
+</Definitions>
